@@ -1,0 +1,255 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-petshop nav .container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar-petshop nav .container .navbar-brand {
+  margin-right: 70px;
+}
+.navbar-petshop nav .container .collapse ul .nav-item {
+  margin-right: 40px;
+}
+.navbar-petshop nav .container .collapse ul .nav-item .nav-link {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.navbar-petshop nav .container .collapse ul .nav-item :hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #000000;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+.navbar-petshop nav .container .collapse form {
+  margin-right: 30px;
+}
+.navbar-petshop nav .container .collapse form .form-control {
+  background-color: #F9CB65;
+  border-radius: 7px;
+  border-color: #FBDE9F;
+  font-weight: 400;
+  font-size: 14px;
+  color: #755F2F;
+}
+.navbar-petshop nav .container .collapse form .form-control:hover {
+  opacity: 80%;
+  color: #000000;
+}
+
+.hero-section {
+  background-color: #F5A903;
+  height: 700px;
+  padding-bottom: 30px;
+  padding-top: 220px;
+}
+.hero-section .container .row .content-hero h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+.hero-section .container .row .content-hero p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 38px;
+}
+.hero-section .container .row .content-hero .btn-get {
+  background-color: #E8E2E2;
+  color: #120D0D;
+  border-color: #D6BD8E;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: 195px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  size: 16px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+.hero-section .container .row .content-hero .btn-get:hover {
+  background-color: #E8E2E2;
+  opacity: 70%;
+}
+.hero-section .container .row .hero-img {
+  display: flex;
+}
+.hero-section .container .row .hero-img img {
+  margin-left: 25px;
+  float: right;
+  position: relative;
+  top: 20%;
+  transform: translateY(-45%);
+  right: 20px;
+}
+@media (max-width: 768px) {
+  .hero-section .container .row .hero-img img {
+    width: 100%;
+    position: relative;
+    top: 35rem;
+    transform: translateY(-220%);
+    left: 100px;
+    margin: 0;
+  }
+}
+
+.kategori .row h2 {
+  margin-top: 82px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.kategori .row img {
+  margin-top: 21px;
+}
+.kategori .row img:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.newarriv .row h2 {
+  margin-top: 101px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.newarriv .row img {
+  margin-top: 23px;
+  margin-right: auto;
+}
+.newarriv .row img:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+.newarriv .row span {
+  margin-left: 10px;
+  margin-top: 14px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.newarriv .row p {
+  margin-left: 10px;
+  margin-top: 6px;
+  color: #0B842D;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+.newarriv .row .img-btg {
+  margin-left: 8px;
+  margin-top: 0.7px;
+}
+
+.stock .row h2 {
+  margin-top: 84px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.stock .row img {
+  margin-top: 23px;
+  margin-bottom: 78px;
+  margin-right: auto;
+}
+.stock .row img:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.aboutus {
+  background-color: #E8E2E2;
+  height: 482px;
+}
+.aboutus .container .row .us-img {
+  display: flex;
+}
+.aboutus .container .row .us-content h2 {
+  margin-top: 96px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+.aboutus .container .row .us-content p {
+  margin-top: 13px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  background-color: #F5A903;
+  height: 280px;
+}
+.footer .container .row .img-foot img {
+  padding-right: 83px;
+  cursor: pointer;
+}
+.footer .container .row .content-foot {
+  margin-top: 50px;
+}
+.footer .container .row .content-foot span {
+  color: rgba(0, 0, 0, 0.8980392157);
+  font-weight: 400;
+  size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 92px;
+}
+.footer .container .row .content-foot .jalan {
+  margin-top: 20px;
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.footer .container .row .content-foot p {
+  margin-right: 100px;
+  margin-top: 0px;
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.footer .container .row .sosmed-foot {
+  margin-top: 50px;
+}
+.footer .container .row .sosmed-foot span {
+  color: rgba(0, 0, 0, 0.8980392157);
+  font-weight: 400;
+  size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 160px;
+}
+.footer .container .row .sosmed-foot p {
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.footer .container .row .sosmed-foot img {
+  padding-left: 150px;
+}
+.footer .container .row .sosmed-foot img:hover {
+  opacity: 85%;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
